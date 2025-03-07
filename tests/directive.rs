@@ -168,7 +168,7 @@ pub async fn test_includes_deprecated_directive() {
 
     assert!(schema.sdl().contains(
         r#""Marks an element of a GraphQL schema as no longer supported."
-        directive @deprecated(reason: String = "No longer supported") on FIELD_DEFINITION | ARGUMENT_DEFINITION | INPUT_FIELD_DEFINITION | ENUM_VALUE"#,
+directive @deprecated(reason: String = "No longer supported") on FIELD_DEFINITION | ARGUMENT_DEFINITION | INPUT_FIELD_DEFINITION | ENUM_VALUE"#,
     ))
 }
 
