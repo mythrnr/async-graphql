@@ -314,7 +314,7 @@ impl<'a> FieldFuture<'a> {
 }
 
 pub(crate) type BoxResolverFn =
-    Box<(dyn for<'a> Fn(ResolverContext<'a>) -> FieldFuture<'a> + Send + Sync)>;
+    Box<dyn for<'a> Fn(ResolverContext<'a>) -> FieldFuture<'a> + Send + Sync>;
 
 /// A GraphQL field
 pub struct Field {
