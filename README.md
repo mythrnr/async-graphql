@@ -124,7 +124,7 @@ I strongly recommend limiting the [complexity and depth](https://async-graphql.g
 - Apollo Tracing extension
 - Apollo Federation(v2)
 
-> **Note**: Minimum supported Rust version: 1.87.0 or later
+> **Note**: Minimum supported Rust version: 1.89.0 or later
 
 ## Examples
 
